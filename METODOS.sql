@@ -53,3 +53,15 @@ create table Bitacora (
     CONSTRAINT PK_ID_bitacora PRIMARY KEY (id_bitacora)
 );
 drop table Bitacora;
+
+
+---- trigger para Diario cuando transaccion en PAGOS
+
+CREATE OR REPLACE TRIGGER TG_NEW_TRANSACTION 
+BEFORE INSERT ON PAGOS
+FOR EACH ROW
+DECLARE
+
+BEGIN
+  INSERT INTO DIARIO VALUES ("SE HA INSERTADO UN NUEVO REGISTRO CON EL ID:" || TG_PAGOS.NEXTVAL;
+END;

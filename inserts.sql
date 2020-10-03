@@ -47,11 +47,3 @@ insert into tipo_pago values (9999,'A Tiempo');
 insert into tipo_pago values (8888,'Morocidad');
 insert into tipo_pago values (7777,'Conexion');
 insert into tipo_pago values (6666,'Re-Conexion');
-
-
-
-Mario Saul lobo 
-anotar los llavines
-
-Lola 
-800 bloques 
